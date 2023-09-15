@@ -1,0 +1,66 @@
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/commands
+$ ls
+'git commands.txt'  'git commandssss.txt'  'putty commands.txt'
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/commands
+$ git init
+Initialized empty Git repository in C:/Users/DELL/Desktop/commands/.git/
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/commands (master)
+$ ls -a
+ ./    .git/              'git commandssss.txt'
+ ../  'git commands.txt'  'putty commands.txt'
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/commands (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git commands.txt
+        git commandssss.txt
+        putty commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/commands (master)
+$ git commit -m "git and putty commands"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git commands.txt
+        git commandssss.txt
+        putty commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/commands (master)
+$ git add .
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/commands (master)
+$ git commit -m "git and putty commands"
+[master (root-commit) 30252fc] git and putty commands
+ 3 files changed, 759 insertions(+)
+ create mode 100644 git commands.txt
+ create mode 100644 git commandssss.txt
+ create mode 100644 putty commands.txt
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/commands (master)
+$ git remote add origin https://github.com/RajuReddyAtla/holy-music-project.git
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/commands (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 6.45 KiB | 2.15 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/RajuReddyAtla/holy-music-project.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
