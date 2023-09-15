@@ -1,0 +1,306 @@
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/rr (raju)
+$ ls
+holymusic-backend/  package-lock.json
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/rr (raju)
+$ cd ..
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop
+$ ls
+'~$w Microsoft Word Document.docx'   holy-dev-master.zip     'putty commands.txt'
+ backend.ppk                         holymusicsongs/          putty.exe*
+ cloned/                             holyvideo/               rr/
+ desktop.ini                        'Microsoft Edge.lnk'*     songs/
+'Docker Desktop.lnk'*                MongoDBCompass.lnk*      Termius.lnk*
+'git commands.txt'                  'New folder'/             videos/
+ hellokeypair.ppk                   'New Text Document.txt'  'Visual Studio Code.lnk'*
+ holydev/                            node.js/                 yvTa/
+'holydev aws commands.txt'           Postman.lnk*
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop
+$ cd holy-dev-master.zip 
+bash: cd: holy-dev-master.zip: Not a directory
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop
+$ cd cloned/
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned
+$ ls
+nodejs-helloworld-api-project/
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned
+$ git init
+Initialized empty Git repository in C:/Users/DELL/Desktop/cloned/.git/
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned (master)
+$ ls
+nodejs-helloworld-api-project/
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned (master)
+$ ls -a
+./  ../  .git/  nodejs-helloworld-api-project/
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned (master)
+$ git add nodejs-helloworld-api-project/
+warning: adding embedded git repository: nodejs-helloworld-api-project
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> nodejs-helloworld-api-project
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached nodejs-helloworld-api-project
+hint:
+hint: See "git help submodule" for more information.
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   nodejs-helloworld-api-project
+
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned (master)
+$ git commit -m"raju"
+[master (root-commit) 8a51bf3] raju
+ 1 file changed, 1 insertion(+)
+ create mode 160000 nodejs-helloworld-api-project
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned (master)
+$ git log
+commit 8a51bf39373cbe5920ad0f7b7dd7479bd4de5c2b (HEAD -> master)
+Author: raju reddy <raju1997reddy@gmail.com>
+Date:   Fri Sep 15 14:39:40 2023 +0530
+
+    raju
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned (master)
+$ git remote add origin https://github.com/RajuReddyAtla/asdcfdvs.git
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/RajuReddyAtla/asdcfdvs.git'
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned (master)
+$ git push -u origin master
+Enumerating objects: 2, done.
+Counting objects: 100% (2/2), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 215 bytes | 215.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/RajuReddyAtla/asdcfdvs.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/cloned (master)
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy
+$ s
+bash: s: command not found
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy
+$ ls
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy
+$ ls -a
+./  ../
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy
+$ mkdir rrr
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy
+$ rm rrr/
+rm: cannot remove 'rrr/': Is a directory
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy
+$ rm -r rrr/
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy
+$ mkdir rrr
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy
+$ ls
+rrr/
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy
+$ cd rrr/
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr
+$ ls
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr
+$ touch reddy.txt
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr
+$ touch rewj.txt
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr
+$ touch rqqq.ts
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr
+$ touch fhdhkf.js
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr
+$ code reddy.txt
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr
+$ code rqqq.ts
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr
+$ rm rewj.txt 
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr
+$ git push -u origin main
+fatal: not a git repository (or any of the parent directories): .git
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr
+$ git init
+Initialized empty Git repository in E:/rajureddy/rrr/.git/
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fhdhkf.js
+        reddy.txt
+        rqqq.ts
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git add .
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   fhdhkf.js
+        new file:   reddy.txt
+        new file:   rqqq.ts
+
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git commit -m 
+error: switch `m' requires a value
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git commit -m "files added"
+[master (root-commit) 33d038f] files added
+ 3 files changed, 2 insertions(+)
+ create mode 100644 fhdhkf.js
+ create mode 100644 reddy.txt
+ create mode 100644 rqqq.ts
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git clone https://github.com/RajuReddyAtla/raju.git
+Cloning into 'raju'...
+fatal: unable to access 'https://github.com/RajuReddyAtla/raju.git/': Could not resolve host: github.com
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git clone https://github.com/RajuReddyAtla/raju.git
+Cloning into 'raju'...
+remote: Enumerating objects: 37, done.
+remote: Counting objects: 100% (37/37), done.
+remote: Compressing objects: 100% (24/24), done.
+Receiving objects:  32% (12/37)sed 37 (delta 0), pack-reused 0
+Receiving objects: 100% (37/37), 65.25 KiB | 355.00 KiB/s, done.
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ https://github.com/RajuReddyAtla/asdcfdvs.git
+bash: https://github.com/RajuReddyAtla/asdcfdvs.git: No such file or directory
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git remote add origin https://github.com/RajuReddyAtla/asdcfdvs.git 
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git push -u origin master
+To https://github.com/RajuReddyAtla/asdcfdvs.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/RajuReddyAtla/asdcfdvs.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git branch 
+* master
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (master)
+$ git branch -m raju
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (raju)
+$ git branch
+* raju
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (raju)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/RajuReddyAtla/asdcfdvs.git'
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (raju)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/RajuReddyAtla/asdcfdvs.git'
+
+DELL@DESKTOP-GB0AV49 MINGW32 /e/rajureddy/rrr (raju)
+$ git push -u origin raju
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 330 bytes | 165.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'raju' on GitHub by visiting:
+remote:      https://github.com/RajuReddyAtla/asdcfdvs/pull/new/raju
+remote:
+To https://github.com/RajuReddyAtla/asdcfdvs.git
+ * [new branch]      raju -> raju
+branch 'raju' set up to track 'origin/raju'.
+

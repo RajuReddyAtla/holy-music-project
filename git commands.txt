@@ -1,0 +1,97 @@
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .env.development
+        modified:   src/controllers/index.controller.ts
+        modified:   src/databases/index.ts
+        modified:   src/models/model.ts
+        modified:   src/routes/index.route.ts
+        modified:   src/server.ts
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/config/upload.ts
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (main)
+$ git add .
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (main)
+$ git remote add upstream https://github.com/GirusDevelopers/holymusic-backend.git
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (main)
+$ git remote -v
+origin  https://github.com/GirusDevelopers/holymusic-backend.git (fetch)
+origin  https://github.com/GirusDevelopers/holymusic-backend.git (push)
+upstream        https://github.com/GirusDevelopers/holymusic-backend.git (fetch)
+upstream        https://github.com/GirusDevelopers/holymusic-backend.git (push)
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (main)
+$ git branch upload-files-raju
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (main)
+$ git checkout upload-files-raju
+Switched to branch 'upload-files-raju'
+M       .env.development
+A       src/config/upload.ts
+M       src/controllers/index.controller.ts
+M       src/databases/index.ts
+M       src/models/model.ts
+M       src/routes/index.route.ts
+M       src/server.ts
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (upload-files-raju)
+$ git add .
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (upload-files-raju)
+$ git commit -m "code for uploading files"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DELL@DESKTOP-GB0AV49.(none)')
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (upload-files-raju)
+$  git config --global user.email "raju1997reddy@gmail.com"
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (upload-files-raju)
+$  git config --global user.name "raju reddy"
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (upload-files-raju)
+$ git commit -m "code for uploading files"
+[upload-files-raju b4edb0f] code for uploading files
+ 7 files changed, 456 insertions(+), 169 deletions(-)
+ create mode 100644 src/config/upload.ts
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (upload-files-raju)
+$ git push origin upload-files-raju
+Enumerating objects: 28, done.
+Counting objects: 100% (28/28), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (15/15), 4.57 KiB | 935.00 KiB/s, done.
+Total 15 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'upload-files-raju' on GitHub by visiting:
+remote:      https://github.com/GirusDevelopers/holymusic-backend/pull/new/upload-files-raju
+remote:
+To https://github.com/GirusDevelopers/holymusic-backend.git
+ * [new branch]      upload-files-raju -> upload-files-raju
+
+DELL@DESKTOP-GB0AV49 MINGW32 ~/Desktop/holymusic-backend (upload-files-raju)
+$

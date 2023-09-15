@@ -1,0 +1,356 @@
+13.51.198.129
+
+
+ec2-13-51-198-129.eu-north-1.compute.amazonaws.com
+
+
+
+
+login as: ec2-user
+ 
+[ec2-user@ip-172-31-45-105 ~]$ ls
+[ec2-user@ip-172-31-45-105 ~]$ ls -rtl
+total 0
+[ec2-user@ip-172-31-45-105 ~]$ pwd
+/home/ec2-user
+[ec2-user@ip-172-31-45-105 ~]$ cd /
+[ec2-user@ip-172-31-45-105 /]$ ls -rtl
+ 
+[ec2-user@ip-172-31-45-105 /]$
+[ec2-user@ip-172-31-45-105 /]$
+[ec2-user@ip-172-31-45-105 /]$ sudo su - root
+ 
+[root@ip-172-31-45-105 ~]# cd /
+[root@ip-172-31-45-105 /]# ls -rtl
+ 
+[root@ip-172-31-45-105 /]# mkdir /appl
+[root@ip-172-31-45-105 /]#
+[root@ip-172-31-45-105 /]#
+[root@ip-172-31-45-105 /]# cd /appl/
+[root@ip-172-31-45-105 appl]# ls -rtl
+total 0
+[root@ip-172-31-45-105 appl]#
+[root@ip-172-31-45-105 appl]#
+[root@ip-172-31-45-105 appl]# sudo yum install git -y
+ 
+[root@ip-172-31-45-105 appl]#
+[root@ip-172-31-45-105 appl]#
+[root@ip-172-31-45-105 appl]# git clone https://github.com/codeonedigest/node                                                                                js-helloworld-api-project.git
+ 
+[root@ip-172-31-45-105 appl]# cd nodejs-helloworld-api-project/
+
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# ls -rtl
+ 
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# curl -o- https://raw.g                                                                                ithubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+
+
+ 
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# . ~/.nvm/nvm.sh
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# nvm install --lts
+ 
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# node --version
+v18.17.1
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# npm --version
+9.6.7
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# ls -rtl
+ 
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# cat package.json
+ 
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# npm install
+
+ 
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# ls -rtl
+ 
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# cat server.js
+ 
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# node server.js
+server is up and running 8080
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+login as: ec2-user
+Authenticating with public key "hellokeypair" from agent
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+[ec2-user@ip-172-31-45-105 ~]$ ls
+[ec2-user@ip-172-31-45-105 ~]$ ls -rtl
+total 0
+[ec2-user@ip-172-31-45-105 ~]$ pwd
+/home/ec2-user
+[ec2-user@ip-172-31-45-105 ~]$ cd /
+[ec2-user@ip-172-31-45-105 /]$ ls -rtl
+total 32
+drwxr-xr-x.   2 root root     6 Jan 30  2023 srv
+lrwxrwxrwx.   1 root root     8 Jan 30  2023 sbin -> usr/sbin
+drwxr-xr-x.   2 root root     6 Jan 30  2023 mnt
+drwxr-xr-x.   2 root root     6 Jan 30  2023 media
+lrwxrwxrwx.   1 root root     9 Jan 30  2023 lib64 -> usr/lib64
+lrwxrwxrwx.   1 root root     7 Jan 30  2023 lib -> usr/lib
+lrwxrwxrwx.   1 root root     7 Jan 30  2023 bin -> usr/bin
+drwxr-xr-x.   2 root root     6 Sep  5 21:49 local
+drwxr-xr-x.  12 root root   144 Sep  5 21:50 usr
+drwxr-xr-x.   3 root root    17 Sep  5 21:50 opt
+dr-xr-x---.   3 root root   103 Sep  5 21:51 root
+dr-xr-xr-x.   5 root root 16384 Sep  5 21:51 boot
+dr-xr-xr-x. 164 root root     0 Sep 12 11:00 proc
+dr-xr-xr-x.  13 root root     0 Sep 12 11:00 sys
+drwxr-xr-x.  19 root root   266 Sep 12 11:00 var
+drwxr-xr-x.  14 root root  2900 Sep 12 11:00 dev
+drwxr-xr-x.   3 root root    22 Sep 12 11:00 home
+drwxr-xr-x.  77 root root 16384 Sep 12 11:00 etc
+drwxr-xr-x.  28 root root   840 Sep 12 11:00 run
+drwxrwxrwt.  11 root root   220 Sep 12 11:30 tmp
+[ec2-user@ip-172-31-45-105 /]$
+[ec2-user@ip-172-31-45-105 /]$
+[ec2-user@ip-172-31-45-105 /]$
+[ec2-user@ip-172-31-45-105 /]$
+[ec2-user@ip-172-31-45-105 /]$
+[ec2-user@ip-172-31-45-105 /]$ sudo su - root
+[root@ip-172-31-45-105 ~]#
+[root@ip-172-31-45-105 ~]#
+[root@ip-172-31-45-105 ~]#
+[root@ip-172-31-45-105 ~]# cd /
+[root@ip-172-31-45-105 /]# ls -rtl
+total 32
+drwxr-xr-x.   2 root root     6 Jan 30  2023 srv
+lrwxrwxrwx.   1 root root     8 Jan 30  2023 sbin -> usr/sbin
+drwxr-xr-x.   2 root root     6 Jan 30  2023 mnt
+drwxr-xr-x.   2 root root     6 Jan 30  2023 media
+lrwxrwxrwx.   1 root root     9 Jan 30  2023 lib64 -> usr/lib64
+lrwxrwxrwx.   1 root root     7 Jan 30  2023 lib -> usr/lib
+lrwxrwxrwx.   1 root root     7 Jan 30  2023 bin -> usr/bin
+drwxr-xr-x.   2 root root     6 Sep  5 21:49 local
+drwxr-xr-x.  12 root root   144 Sep  5 21:50 usr
+drwxr-xr-x.   3 root root    17 Sep  5 21:50 opt
+dr-xr-x---.   3 root root   103 Sep  5 21:51 root
+dr-xr-xr-x.   5 root root 16384 Sep  5 21:51 boot
+dr-xr-xr-x. 163 root root     0 Sep 12 11:00 proc
+dr-xr-xr-x.  13 root root     0 Sep 12 11:00 sys
+drwxr-xr-x.  19 root root   266 Sep 12 11:00 var
+drwxr-xr-x.  14 root root  2900 Sep 12 11:00 dev
+drwxr-xr-x.   3 root root    22 Sep 12 11:00 home
+drwxr-xr-x.  77 root root 16384 Sep 12 11:00 etc
+drwxr-xr-x.  28 root root   840 Sep 12 11:00 run
+drwxrwxrwt.  11 root root   220 Sep 12 11:36 tmp
+[root@ip-172-31-45-105 /]# mkdir /appl
+[root@ip-172-31-45-105 /]#
+[root@ip-172-31-45-105 /]#
+[root@ip-172-31-45-105 /]# cd /appl/
+[root@ip-172-31-45-105 appl]# ls -rtl
+total 0
+[root@ip-172-31-45-105 appl]#
+[root@ip-172-31-45-105 appl]#
+[root@ip-172-31-45-105 appl]# sudo yum install git -y
+Last metadata expiration check: 0:39:15 ago on Tue Sep 12 11:00:37 2023.
+Dependencies resolved.
+=============================================================================
+ Package            Arch     Version                     Repository     Size
+=============================================================================
+Installing:
+ git                x86_64   2.40.1-1.amzn2023.0.1       amazonlinux    57 k
+Installing dependencies:
+ git-core           x86_64   2.40.1-1.amzn2023.0.1       amazonlinux   4.3 M
+ git-core-doc       noarch   2.40.1-1.amzn2023.0.1       amazonlinux   2.6 M
+ perl-Error         noarch   1:0.17029-5.amzn2023.0.2    amazonlinux    41 k
+ perl-File-Find     noarch   1.37-477.amzn2023.0.5       amazonlinux    26 k
+ perl-Git           noarch   2.40.1-1.amzn2023.0.1       amazonlinux    45 k
+ perl-TermReadKey   x86_64   2.38-9.amzn2023.0.2         amazonlinux    36 k
+ perl-lib           x86_64   0.65-477.amzn2023.0.5       amazonlinux    15 k
+
+Transaction Summary
+=============================================================================
+Install  8 Packages
+
+Total download size: 7.1 M
+Installed size: 34 M
+Downloading Packages:
+(1/8): git-2.40.1-1.amzn2023.0.1.x86_64.rpm  755 kB/s |  57 kB     00:00
+(2/8): perl-TermReadKey-2.38-9.amzn2023.0.2. 465 kB/s |  36 kB     00:00
+(3/8): perl-lib-0.65-477.amzn2023.0.5.x86_64 177 kB/s |  15 kB     00:00
+(4/8): perl-Error-0.17029-5.amzn2023.0.2.noa 1.1 MB/s |  41 kB     00:00
+(5/8): perl-File-Find-1.37-477.amzn2023.0.5. 643 kB/s |  26 kB     00:00
+(6/8): perl-Git-2.40.1-1.amzn2023.0.1.noarch 2.0 MB/s |  45 kB     00:00
+(7/8): git-core-2.40.1-1.amzn2023.0.1.x86_64  15 MB/s | 4.3 MB     00:00
+(8/8): git-core-doc-2.40.1-1.amzn2023.0.1.no 8.5 MB/s | 2.6 MB     00:00
+-----------------------------------------------------------------------------
+Total                                         16 MB/s | 7.1 MB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                     1/1
+  Installing       : git-core-2.40.1-1.amzn2023.0.1.x86_64               1/8
+  Installing       : git-core-doc-2.40.1-1.amzn2023.0.1.noarch           2/8
+  Installing       : perl-File-Find-1.37-477.amzn2023.0.5.noarch         3/8
+  Installing       : perl-Error-1:0.17029-5.amzn2023.0.2.noarch          4/8
+  Installing       : perl-TermReadKey-2.38-9.amzn2023.0.2.x86_64         5/8
+  Installing       : perl-lib-0.65-477.amzn2023.0.5.x86_64               6/8
+  Installing       : perl-Git-2.40.1-1.amzn2023.0.1.noarch               7/8
+  Installing       : git-2.40.1-1.amzn2023.0.1.x86_64                    8/8
+  Running scriptlet: git-2.40.1-1.amzn2023.0.1.x86_64                    8/8
+  Verifying        : perl-lib-0.65-477.amzn2023.0.5.x86_64               1/8
+  Verifying        : perl-TermReadKey-2.38-9.amzn2023.0.2.x86_64         2/8
+  Verifying        : git-2.40.1-1.amzn2023.0.1.x86_64                    3/8
+  Verifying        : git-core-2.40.1-1.amzn2023.0.1.x86_64               4/8
+  Verifying        : perl-Error-1:0.17029-5.amzn2023.0.2.noarch          5/8
+  Verifying        : git-core-doc-2.40.1-1.amzn2023.0.1.noarch           6/8
+  Verifying        : perl-File-Find-1.37-477.amzn2023.0.5.noarch         7/8
+  Verifying        : perl-Git-2.40.1-1.amzn2023.0.1.noarch               8/8
+
+Installed:
+  git-2.40.1-1.amzn2023.0.1.x86_64
+  git-core-2.40.1-1.amzn2023.0.1.x86_64
+  git-core-doc-2.40.1-1.amzn2023.0.1.noarch
+  perl-Error-1:0.17029-5.amzn2023.0.2.noarch
+  perl-File-Find-1.37-477.amzn2023.0.5.noarch
+  perl-Git-2.40.1-1.amzn2023.0.1.noarch
+  perl-TermReadKey-2.38-9.amzn2023.0.2.x86_64
+  perl-lib-0.65-477.amzn2023.0.5.x86_64
+
+Complete!
+[root@ip-172-31-45-105 appl]#
+[root@ip-172-31-45-105 appl]#
+[root@ip-172-31-45-105 appl]#
+[root@ip-172-31-45-105 appl]# git clone https://github.com/codeonedigest/node                                                                                js-helloworld-api-project.git
+Cloning into 'nodejs-helloworld-api-project'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 13 (delta 4), reused 9 (delta 2), pack-reused 0
+Receiving objects: 100% (13/13), 8.79 KiB | 8.79 MiB/s, done.
+Resolving deltas: 100% (4/4), done.
+[root@ip-172-31-45-105 appl]#
+[root@ip-172-31-45-105 appl]#
+[root@ip-172-31-45-105 appl]# cd node^C
+[root@ip-172-31-45-105 appl]# cd nodejs-helloworld-api-project/
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# ls -rtl
+total 40
+-rw-r--r--. 1 root root   425 Sep 12 11:42 server.js
+-rw-r--r--. 1 root root   166 Sep 12 11:42 package.json
+-rw-r--r--. 1 root root 22254 Sep 12 11:42 package-lock.json
+-rw-r--r--. 1 root root   681 Sep 12 11:42 README.md
+-rw-r--r--. 1 root root   598 Sep 12 11:42 Commands.txt
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# curl -o- https://raw.g                                                                                ithubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Curre                                                                                nt
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--                                                                                       0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--                                                                                     100 15916  100 15916    0     0  92470      0 --:--:-- --:--:-- --:--:-- 9200                                                                                0
+=> Downloading nvm from git to '/root/.nvm'
+=> Cloning into '/root/.nvm'...
+remote: Enumerating objects: 360, done.
+remote: Counting objects: 100% (360/360), done.
+remote: Compressing objects: 100% (306/306), done.
+remote: Total 360 (delta 41), reused 162 (delta 28), pack-reused 0
+Receiving objects: 100% (360/360), 220.26 KiB | 2.75 MiB/s, done.
+Resolving deltas: 100% (41/41), done.
+* (HEAD detached at FETCH_HEAD)
+  master
+=> Compressing and cleaning up git repository
+
+=> Appending nvm source string to /root/.bashrc
+=> Appending bash_completion source string to /root/.bashrc
+=> Close and reopen your terminal to start using nvm or run the following to                                                                                 use it now:
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This lo                                                                                ads nvm bash_completion
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# . ~/.nvm/nvm.sh
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# nvm install --lts
+Installing latest LTS version.
+Downloading and installing node v18.17.1...
+Downloading https://nodejs.org/dist/v18.17.1/node-v18.17.1-linux-x64.tar.xz..                                                                                .
+###################################################################### 100.0%
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v18.17.1 (npm v9.6.7)
+Creating default alias: default -> lts/* (-> v18.17.1)
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# node --version
+v18.17.1
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# npm --version
+9.6.7
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# ls -rtl
+total 40
+-rw-r--r--. 1 root root   425 Sep 12 11:42 server.js
+-rw-r--r--. 1 root root   166 Sep 12 11:42 package.json
+-rw-r--r--. 1 root root 22254 Sep 12 11:42 package-lock.json
+-rw-r--r--. 1 root root   681 Sep 12 11:42 README.md
+-rw-r--r--. 1 root root   598 Sep 12 11:42 Commands.txt
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# cat package.json
+{
+        "name": "nodejs-graphql-hello-world-server",
+        "private": true,
+        "dependencies": {
+                "body-parser": "^1.18.3",
+                "cors": "^2.8.4",
+                "express": "^4.16.3"
+        }
+}
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# npm install
+
+added 62 packages, and audited 63 packages in 1s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# ls -rtl
+total 56
+-rw-r--r--.  1 root root   425 Sep 12 11:42 server.js
+-rw-r--r--.  1 root root   166 Sep 12 11:42 package.json
+-rw-r--r--.  1 root root   681 Sep 12 11:42 README.md
+-rw-r--r--.  1 root root   598 Sep 12 11:42 Commands.txt
+-rw-r--r--.  1 root root 22254 Sep 12 11:55 package-lock.json
+drwxr-xr-x. 62 root root 16384 Sep 12 11:55 node_modules
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# cat server.js
+const bodyParser = require('body-parser')
+const cors = require('cors')
+const express = require('express')
+const port = process.env.PORT||8080
+const app = express()
+
+app.use(bodyParser.json() , cors())
+
+
+app.get('/', (req, res) => {
+   res.send('Welcome to Nodejs API Project')
+ })
+
+ app.get('/hello', (req, res) => {
+   res.send('Hello World!!')
+ })
+
+app.listen(port, () =>  console.log(`server is up and running ${port}`))[root                                                                                @ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]#
+[root@ip-172-31-45-105 nodejs-helloworld-api-project]# node server.js
+server is up and running 8080
+
+
